@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:PersonagensApp.Views"
+             BackgroundColor="Black"
+             x:Class="PersonagensApp.Views.ImageViewPage">
+  <ContentPage.Content>
+    <AbsoluteLayout>
+      <BoxView Color="Black" AbsoluteLayout.LayoutBounds="0,0,1,.1" AbsoluteLayout.LayoutFlags="All" />
+      <Image Source="ic_close_white_24dp.png" AbsoluteLayout.LayoutBounds=".96,0,.1,.1" AbsoluteLayout.LayoutFlags="All">
+        <Image.GestureRecognizers>
+          <TapGestureRecognizer
+                  Tapped="OnCloseTapped"
+                  NumberOfTapsRequired="1" />
+        </Image.GestureRecognizers>
+      </Image>
+      <ActivityIndicator BindingContext="{x:Reference imgFile}"
+                         AbsoluteLayout.LayoutBounds=".5,.5,1,1" AbsoluteLayout.LayoutFlags="All"
+                         IsRunning="{Binding IsLoading}"
+                         IsVisible="{Binding IsLoading}" />
+      <Image x:Name="imgFile" AbsoluteLayout.LayoutBounds=".5,.5,1,.58" AbsoluteLayout.LayoutFlags="All"/>
+    </AbsoluteLayout>
+  </ContentPage.Content>
+</ContentPage>

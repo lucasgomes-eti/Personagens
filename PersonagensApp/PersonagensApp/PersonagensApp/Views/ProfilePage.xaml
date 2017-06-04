@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="{Binding Nome}"
+             Style="{StaticResource defaultPageBackgroundColor}"
+             x:Class="PersonagensApp.Views.ProfilePage">
+  <ContentPage.Content>
+    <ScrollView>
+      <StackLayout>
+        <Image x:Name="imgFile"
+               Source="{Binding FotoUrl}"
+               Aspect="AspectFill"
+               HeightRequest="203">
+          <Image.GestureRecognizers>
+            <TapGestureRecognizer
+                    Tapped="OnTapGestureRecognizerTapped"
+                    NumberOfTapsRequired="1" />
+          </Image.GestureRecognizers>
+        </Image>
+        <StackLayout Padding="16,8,16,8" Spacing="8">
+          <Label Text="{Binding Descricao}" Style="{StaticResource bodyLblStyle}" />
+
+          <Label Text="Nome Real" Style="{StaticResource titleLblStyle}" />
+          <Label Text="{Binding NomeReal}" Style="{StaticResource bodyLblStyle}" />
+
+          <Label Text="Genero" Style="{StaticResource titleLblStyle}" />
+          <Label Text="{Binding Genero}" Style="{StaticResource bodyLblStyle}" />
+
+          <Label Text="Altura" Style="{StaticResource titleLblStyle}" />
+          <Label Text="{Binding Altura}" Style="{StaticResource bodyLblStyle}" />
+
+          <Label Text="Peso" Style="{StaticResource titleLblStyle}" />
+          <Label Text="{Binding Peso}" Style="{StaticResource bodyLblStyle}" />
+
+          <Label Text="Poderes" Style="{StaticResource titleLblStyle}" />
+          <Label Text="{Binding Poderes}" Style="{StaticResource bodyLblStyle}" />
+
+          <Label Text="Habilidades" Style="{StaticResource titleLblStyle}" />
+          <Label Text="{Binding Habilidades}" Style="{StaticResource bodyLblStyle}" />
+
+          <Label Text="Afiliacoes" Style="{StaticResource titleLblStyle}" />
+          <Label Text="{Binding Afiliacoes}" Style="{StaticResource bodyLblStyle}" />
+
+          <Label Text="Origem" Style="{StaticResource titleLblStyle}" />
+          <Label Text="{Binding Origem}" Style="{StaticResource bodyLblStyle}" />
+        </StackLayout>
+      </StackLayout>
+    </ScrollView>
+  </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PersonagensModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Personagens">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FotoUrl" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Name="Nome" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Descricao" Type="String" MaxLength="4000" FixedLength="false" Unicode="true" />
+    <Property Name="NomeReal" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Genero" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Altura" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Peso" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Poderes" Type="String" MaxLength="4000" FixedLength="false" Unicode="true" />
+    <Property Name="Habilidades" Type="String" MaxLength="4000" FixedLength="false" Unicode="true" />
+    <Property Name="Afiliacoes" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <Property Name="Origem" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="PersonagensEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Personagens" EntityType="Self.Personagens" />
+  </EntityContainer>
+</Schema>

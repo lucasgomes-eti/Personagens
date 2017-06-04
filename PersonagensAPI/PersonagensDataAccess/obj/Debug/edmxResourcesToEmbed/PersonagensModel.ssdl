@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PersonagensModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Personagens">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FotoUrl" Type="nvarchar" MaxLength="300" />
+    <Property Name="Nome" Type="nvarchar" MaxLength="50" />
+    <Property Name="Descricao" Type="nvarchar" MaxLength="4000" />
+    <Property Name="NomeReal" Type="nvarchar" MaxLength="50" />
+    <Property Name="Genero" Type="nvarchar" MaxLength="50" />
+    <Property Name="Altura" Type="nvarchar" MaxLength="50" />
+    <Property Name="Peso" Type="nvarchar" MaxLength="50" />
+    <Property Name="Poderes" Type="nvarchar" MaxLength="4000" />
+    <Property Name="Habilidades" Type="nvarchar" MaxLength="4000" />
+    <Property Name="Afiliacoes" Type="nvarchar" MaxLength="2000" />
+    <Property Name="Origem" Type="nvarchar" MaxLength="1000" />
+  </EntityType>
+  <EntityContainer Name="PersonagensModelStoreContainer">
+    <EntitySet Name="Personagens" EntityType="Self.Personagens" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,10 @@
+C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensAPI\PersonagensDataAccess\bin\Debug\PersonagensDataAccess.dll.config
+C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensAPI\PersonagensDataAccess\bin\Debug\PersonagensDataAccess.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensAPI\PersonagensDataAccess\bin\Debug\PersonagensDataAccess.pdb
+C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensAPI\PersonagensDataAccess\bin\Debug\EntityFramework.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensAPI\PersonagensDataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensAPI\PersonagensDataAccess\bin\Debug\EntityFramework.xml
+C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensAPI\PersonagensDataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensAPI\PersonagensDataAccess\obj\Debug\PersonagensDataAccess.csprojResolveAssemblyReference.cache
+C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensAPI\PersonagensDataAccess\obj\Debug\PersonagensDataAccess.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensAPI\PersonagensDataAccess\obj\Debug\PersonagensDataAccess.pdb

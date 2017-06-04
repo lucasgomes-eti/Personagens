@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PersonagensApp.App">
+  <Application.Resources>
+    <ResourceDictionary>
+      <Style x:Key="defaultPageBackgroundColor" TargetType="ContentPage">
+        <Setter Property="BackgroundColor" Value="#F5F5F5" />
+      </Style>
+      <Style x:Key="solidBtnStyle" TargetType="Button">
+        <Setter Property="TextColor" Value="White" />
+        <Setter Property="FontSize" Value="20" />
+        <Setter Property="BackgroundColor" Value="#F44336" />
+        <Setter Property="HeightRequest" Value="64" />
+        <Setter Property="BorderRadius" Value="0" />
+      </Style>
+      <Style x:Key="solidBtnCircleStyle" TargetType="Button">
+        <Setter Property="TextColor" Value="White" />
+        <Setter Property="FontSize" Value="20" />
+        <Setter Property="BackgroundColor" Value="#EEEEEE" />
+        <Setter Property="HeightRequest" Value="56" />
+        <Setter Property="WidthRequest" Value="56" />
+        <Setter Property="BorderRadius" Value="28" />
+      </Style>
+      <Style x:Key="titleLblStyle" TargetType="Label">
+        <Setter Property="TextColor" Value="#1E1E1E" />
+        <Setter Property="FontSize" Value="17" />
+      </Style>
+      <Style x:Key="bodyLblStyle" TargetType="Label">
+        <Setter Property="TextColor" Value="#333333" />
+        <Setter Property="FontSize" Value="14" />
+      </Style>
+    </ResourceDictionary>
+  </Application.Resources>
+</Application>

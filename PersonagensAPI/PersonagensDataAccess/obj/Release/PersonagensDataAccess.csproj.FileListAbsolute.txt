@@ -1,0 +1,9 @@
+C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensAPI\PersonagensDataAccess\bin\Release\PersonagensDataAccess.dll.config
+C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensAPI\PersonagensDataAccess\bin\Release\PersonagensDataAccess.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensAPI\PersonagensDataAccess\bin\Release\PersonagensDataAccess.pdb
+C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensAPI\PersonagensDataAccess\bin\Release\EntityFramework.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensAPI\PersonagensDataAccess\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensAPI\PersonagensDataAccess\bin\Release\EntityFramework.xml
+C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensAPI\PersonagensDataAccess\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensAPI\PersonagensDataAccess\obj\Release\PersonagensDataAccess.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensAPI\PersonagensDataAccess\obj\Release\PersonagensDataAccess.pdb

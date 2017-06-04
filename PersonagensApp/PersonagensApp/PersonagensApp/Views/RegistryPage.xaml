@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin.Abstractions"
+             Style="{StaticResource defaultPageBackgroundColor}"
+             Title="Registro de Personagem"
+             x:Class="PersonagensApp.Views.RegistryPage">
+  <ContentPage.Content>
+    <ScrollView>
+      <StackLayout>
+        <StackLayout Padding="16,8,16,8" Spacing="8">
+          <AbsoluteLayout>
+            <ActivityIndicator BindingContext="{x:Reference imgFile}"
+                                                   IsRunning="{Binding IsLoading}"
+                                                   IsVisible="{Binding IsLoading}"
+                                                   AbsoluteLayout.LayoutBounds=".5,0,1,1" AbsoluteLayout.LayoutFlags="All" />
+            <controls:CircleImage x:Name="imgFile"
+                                  Source="img_avatar_default.png"
+                                  HeightRequest="152"
+                                  WidthRequest="152"
+                                  Aspect="AspectFit"
+                                  BorderThickness="2"
+                                  BorderColor="White"
+                                  AbsoluteLayout.LayoutBounds=".5,0,1,1" AbsoluteLayout.LayoutFlags="All">
+              <Image.GestureRecognizers>
+                <TapGestureRecognizer
+                        Tapped="OnTapGestureRecognizerTapped"
+                        NumberOfTapsRequired="1" />
+              </Image.GestureRecognizers>
+
+            </controls:CircleImage>
+
+            <Button Grid.Row="2" Grid.Column="1"
+                    AbsoluteLayout.LayoutBounds=".75,1,.17,.3" AbsoluteLayout.LayoutFlags="All"
+                    Image="ic_select_img_src.png"
+                    Style="{StaticResource solidBtnCircleStyle}"
+                    Clicked="OnSelectSourceClicked"/>
+          </AbsoluteLayout>
+          <Entry x:Name="txtNome" Placeholder="Nome" />
+          <Label Text="Descrição" Style="{StaticResource bodyLblStyle}" />
+          <Editor x:Name="txtDescricao" />
+          <Entry x:Name="txtNomeReal" Placeholder="Nome Real" />
+          <Picker x:Name="pkrGenero" Title="Genero">
+            <Picker.Items>
+              <x:String>
+                Feminino
+              </x:String>
+              <x:String>
+                Masculino
+              </x:String>
+            </Picker.Items>
+          </Picker>
+          <Label Text="Altura" Style="{StaticResource bodyLblStyle}" />
+          <Grid>
+            <Grid.RowDefinitions>
+              <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="20*" />
+              <ColumnDefinition Width="20*" />
+              <ColumnDefinition Width="60*" />
+            </Grid.ColumnDefinitions>
+            <Entry x:Name="txtAltura" Grid.Row="0" Grid.Column="0" Keyboard="Numeric" />
+            <Label Text="m" Style="{StaticResource bodyLblStyle}" Grid.Row="0" Grid.Column="1" VerticalTextAlignment="Center" />
+            <Slider x:Name="sldAltura" Grid.Row="0" Grid.Column="2" Minimum="0" Maximum="10" Value="1" ValueChanged="OnAlturaValueChanged" />
+          </Grid>
+          <Label Text="Peso" Style="{StaticResource bodyLblStyle}" />
+          <Grid>
+            <Grid.RowDefinitions>
+              <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="20*" />
+              <ColumnDefinition Width="20*" />
+              <ColumnDefinition Width="60*" />
+            </Grid.ColumnDefinitions>
+            <Entry x:Name="txtPeso" Grid.Row="0" Grid.Column="0" Keyboard="Numeric" />
+            <Label Text="kg" Style="{StaticResource bodyLblStyle}" Grid.Row="0" Grid.Column="1" VerticalTextAlignment="Center" />
+            <Slider x:Name="sldPeso" Grid.Row="0" Grid.Column="2" Minimum="0" Maximum="2000" Value="1" ValueChanged="OnPesoValueChanged" />
+          </Grid>
+          <Label Text="Poderes" Style="{StaticResource bodyLblStyle}" />
+          <Editor x:Name="txtPoderes" />
+
+          <Label Text="Habilidades" Style="{StaticResource bodyLblStyle}" />
+          <Editor x:Name="txtHabilidades" />
+
+          <Label Text="Afiliações" Style="{StaticResource bodyLblStyle}" />
+          <Editor x:Name="txtAfiliacoes" />
+
+          <Label Text="Origem" Style="{StaticResource bodyLblStyle}" />
+          <Editor x:Name="txtOrigem" />
+        </StackLayout>
+        <Button Text="Cadastrar" Style="{StaticResource solidBtnStyle}" Clicked="OnCadastrarClicked" />
+      </StackLayout>
+    </ScrollView>
+  </ContentPage.Content>
+</ContentPage>
