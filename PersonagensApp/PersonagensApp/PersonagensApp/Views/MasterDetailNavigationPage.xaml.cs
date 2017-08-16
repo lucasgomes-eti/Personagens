@@ -10,16 +10,12 @@ namespace PersonagensApp.Views
 {
     public partial class MasterDetailNavigationPage : MasterDetailPage
     {
-
-
         public MasterDetailNavigationPage()
         {
             InitializeComponent();
             this.Master = new MasterPage();
             this.Detail = new NavigationPage(new MainPage());
             App.MasterDetail = this;
-        }
-
-        
+        }   
     }
 }

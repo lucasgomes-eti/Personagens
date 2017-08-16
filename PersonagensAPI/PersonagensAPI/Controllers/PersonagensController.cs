@@ -39,7 +39,7 @@ namespace PersonagensAPI.Controllers
         {
             try
             {
-                using (PersonagensEntities entities = new PersonagensEntities())
+                using (var entities = new PersonagensEntities())
                 {
                     entities.Personagens.Add(personagem);
                     entities.SaveChanges();

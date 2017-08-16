@@ -1,84 +1,85 @@
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\PersonagensApp.Droid.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Acr.Support.Android.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Acr.UserDialogs.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Acr.UserDialogs.Interface.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\AndHUD.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\FormsViewGroup.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\ImageCircle.Forms.Plugin.Abstractions.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\ImageCircle.Forms.Plugin.Android.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Newtonsoft.Json.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Plugin.Connectivity.Abstractions.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Plugin.Connectivity.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Plugin.CurrentActivity.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Plugin.Media.Abstractions.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Plugin.Media.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Plugin.Permissions.Abstractions.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Plugin.Permissions.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Refractored.FloatingActionButton.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Splat.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\SQLite.Net.Async.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\SQLite.Net.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\SQLite.Net.Platform.XamarinAndroid.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\SQLite.Net.Platform.XamarinAndroidN.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Xamarin.Android.Support.Animated.Vector.Drawable.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Xamarin.Android.Support.CustomTabs.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Xamarin.Android.Support.Design.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Xamarin.Android.Support.v4.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Xamarin.Android.Support.v7.AppCompat.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Xamarin.Android.Support.v7.CardView.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Xamarin.Android.Support.v7.MediaRouter.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Xamarin.Android.Support.v7.RecyclerView.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Xamarin.Android.Support.Vector.Drawable.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Xamarin.Auth.Android.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Xamarin.Forms.Core.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Xamarin.Forms.Platform.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Java.Interop.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Microsoft.CSharp.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Mono.Android.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\mscorlib.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Core.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.IO.Compression.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Json.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Net.Http.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Xml.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Xml.Linq.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\PersonagensApp.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Runtime.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.ComponentModel.Composition.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Threading.Tasks.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Collections.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Resources.ResourceManager.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.IO.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Runtime.Numerics.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Numerics.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Xml.XmlDocument.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Xml.XDocument.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Globalization.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Diagnostics.Debug.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Runtime.Serialization.Primitives.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Runtime.Serialization.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.ServiceModel.Internals.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Reflection.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.ComponentModel.TypeConverter.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Dynamic.Runtime.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Linq.Expressions.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Linq.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Runtime.Serialization.Formatters.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.ObjectModel.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Text.RegularExpressions.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Xml.ReaderWriter.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Text.Encoding.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Runtime.Extensions.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Threading.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Reflection.Extensions.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Reflection.Primitives.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Text.Encoding.Extensions.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.ComponentModel.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Collections.Concurrent.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Runtime.InteropServices.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Mono.CSharp.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Diagnostics.Tools.dll
-C:\Users\lucas\Documents\Visual Studio 2015\Projects\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Net.Primitives.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\PersonagensApp.Droid.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Acr.Support.Android.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Acr.UserDialogs.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Acr.UserDialogs.Interface.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\AndHUD.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\FormsViewGroup.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\ImageCircle.Forms.Plugin.Abstractions.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\ImageCircle.Forms.Plugin.Android.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Newtonsoft.Json.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Plugin.Connectivity.Abstractions.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Plugin.Connectivity.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Plugin.CurrentActivity.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Plugin.Media.Abstractions.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Plugin.Media.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Plugin.Permissions.Abstractions.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Plugin.Permissions.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Refractored.FloatingActionButton.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Splat.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\SQLite.Net.Async.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\SQLite.Net.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\SQLite.Net.Platform.XamarinAndroid.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\SQLite.Net.Platform.XamarinAndroidN.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Xamarin.Android.Support.Animated.Vector.Drawable.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Xamarin.Android.Support.CustomTabs.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Xamarin.Android.Support.Design.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Xamarin.Android.Support.v4.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Xamarin.Android.Support.v7.AppCompat.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Xamarin.Android.Support.v7.CardView.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Xamarin.Android.Support.v7.MediaRouter.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Xamarin.Android.Support.v7.RecyclerView.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Xamarin.Android.Support.Vector.Drawable.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Xamarin.Auth.Android.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Xamarin.Forms.Core.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Xamarin.Forms.Platform.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Java.Interop.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Microsoft.CSharp.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Mono.Android.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\mscorlib.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Core.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.IO.Compression.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Json.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Net.Http.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Xml.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Xml.Linq.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\PersonagensApp.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Runtime.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.ComponentModel.Composition.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Threading.Tasks.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Collections.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Resources.ResourceManager.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.IO.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Runtime.Numerics.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Numerics.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Xml.XmlDocument.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Xml.XDocument.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Globalization.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Diagnostics.Debug.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Runtime.Serialization.Primitives.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Runtime.Serialization.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.ServiceModel.Internals.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Reflection.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.ComponentModel.TypeConverter.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Dynamic.Runtime.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Linq.Expressions.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Linq.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Runtime.Serialization.Formatters.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.ObjectModel.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Text.RegularExpressions.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Xml.ReaderWriter.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Text.Encoding.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Runtime.Extensions.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Threading.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Reflection.Extensions.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Reflection.Primitives.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Text.Encoding.Extensions.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.ComponentModel.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Collections.Concurrent.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Runtime.InteropServices.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Mono.CSharp.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Mono.Security.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Diagnostics.Tools.dll
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Net.Primitives.dll

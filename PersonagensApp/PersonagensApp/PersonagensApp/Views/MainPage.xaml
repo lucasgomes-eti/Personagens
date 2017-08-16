@@ -6,52 +6,53 @@
              Title="Personagens"
              Style="{StaticResource defaultPageBackgroundColor}"
              x:Class="PersonagensApp.MainPage">
-  <ContentPage.Content>
-    <AbsoluteLayout>
-      <StackLayout>
-        <SearchBar x:Name="sbrBusca" Placeholder="Pesquisar..." TextChanged="OnSearchTextChanged" />
-      </StackLayout>
-      <AbsoluteLayout.Children>
-        <ListView x:Name="listView" ItemsSource="{Binding}" SeparatorVisibility="None" HasUnevenRows="true" IsPullToRefreshEnabled="True"
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout VerticalOptions="Start">
+                <SearchBar x:Name="sbrBusca" Placeholder="Pesquisar..." TextChanged="OnSearchTextChanged" />
+            </StackLayout>
+            <AbsoluteLayout VerticalOptions="FillAndExpand">
+                <AbsoluteLayout.Children>
+                    <ListView x:Name="listView" ItemsSource="{Binding}" SeparatorVisibility="None" HasUnevenRows="true" IsPullToRefreshEnabled="True"
                   Refreshing="OnRefreshing" ItemSelected="OnItemSelected" CachingStrategy="RecycleElement"
                   AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0,0,1,1">
-          <ListView.ItemTemplate>
-            <DataTemplate>
-              <ViewCell>
-                <StackLayout Orientation="Vertical">
-                  <StackLayout Orientation="Horizontal" Padding="16,8,16,8" Spacing="16">
-                    <Grid>
-                      <Grid.RowDefinitions>
-                        <RowDefinition Height="Auto" />
-                      </Grid.RowDefinitions>
-                      <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="Auto" />
-                      </Grid.ColumnDefinitions>
-                      <ActivityIndicator BindingContext="{x:Reference imgFile}"
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <StackLayout Orientation="Vertical">
+                                        <StackLayout Orientation="Horizontal" Padding="16,8,16,8" Spacing="16">
+                                            <Grid>
+                                                <Grid.RowDefinitions>
+                                                    <RowDefinition Height="Auto" />
+                                                </Grid.RowDefinitions>
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="Auto" />
+                                                </Grid.ColumnDefinitions>
+                                                <ActivityIndicator BindingContext="{x:Reference imgFile}"
                                          IsRunning="{Binding IsLoading}"
                                          IsVisible="{Binding IsLoading}"
                                          Grid.Row="0"
                                          Grid.Column="0" />
-                      <controls:CircleImage x:Name="imgFile"
+                                                <controls:CircleImage x:Name="imgFile"
                                             Source="{Binding FotoUrl}"
                                             Aspect="AspectFill"
                                             HeightRequest="54"
                                             WidthRequest="54"
                                             Grid.Row="0"
                                             Grid.Column="0" />
-                    </Grid>
-                    <Label Text="{Binding Nome}"
+                                            </Grid>
+                                            <Label Text="{Binding Nome}"
                            VerticalOptions="Center"
                            Style="{StaticResource titleLblStyle}" />
-                  </StackLayout>
-                </StackLayout>
-              </ViewCell>
-            </DataTemplate>
-          </ListView.ItemTemplate>
-        </ListView>
-          <local:FloatingActionButtonView x:Name="fab" ImageName="ic_plus_white_24dp.png" ColorNormal="#F44336" ColorPressed="#D32F2F" ColorRipple="#FF5252" AbsoluteLayout.LayoutBounds="1.0, 1.0, AutoSize, AutoSize" AbsoluteLayout.LayoutFlags="PositionProportional" />
-        </AbsoluteLayout.Children>
-    </AbsoluteLayout>
-  </ContentPage.Content>
-
+                                        </StackLayout>
+                                    </StackLayout>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                    <local:FloatingActionButtonView x:Name="fab" ImageName="ic_plus_white_24dp.png" ColorNormal="#F44336" ColorPressed="#D32F2F" ColorRipple="#FF5252" AbsoluteLayout.LayoutBounds="1.0, 1.0, AutoSize, AutoSize" AbsoluteLayout.LayoutFlags="PositionProportional" />
+                </AbsoluteLayout.Children>
+            </AbsoluteLayout>
+        </StackLayout>
+    </ContentPage.Content>
 </ContentPage>
