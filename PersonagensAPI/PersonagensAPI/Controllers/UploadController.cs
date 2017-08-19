@@ -27,11 +27,11 @@ namespace PersonagensAPI.Controllers
 
                         var fileName = postedFile.FileName.Split('\\').LastOrDefault().Split('/').LastOrDefault();
 
-                        var filePath = HttpContext.Current.Server.MapPath("~/Uploads/" + fileName);
+                        var filePath = HttpContext.Current.Server.MapPath("~/ImageUploads/" + fileName);
 
                         postedFile.SaveAs(filePath);
 
-                        return "/Uploads/" + fileName;
+                        return "/ImageUploads/" + fileName;
                     }
                 }
                 return null;
