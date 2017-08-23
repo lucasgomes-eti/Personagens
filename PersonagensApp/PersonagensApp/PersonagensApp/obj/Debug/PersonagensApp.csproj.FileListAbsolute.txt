@@ -114,3 +114,4 @@ E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp\obj\De
 E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp\obj\Debug\PersonagensApp.Views.ProfileUserPage.xaml.g.cs
 E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp\obj\Debug\PersonagensApp.dll
 E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp\obj\Debug\PersonagensApp.pdb
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp\obj\Debug\PersonagensApp.csproj.CoreCompileInputs.cache

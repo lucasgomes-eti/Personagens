@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using PersonagensApp.Services;
 using Xamarin.Forms;
 
 namespace PersonagensApp.Views
@@ -16,6 +16,9 @@ namespace PersonagensApp.Views
     {
         MediaFile mediaFile;
         Personagem personagem = new Personagem();
+
+        RestService restService = new RestService();
+
         public RegistryPage()
         {
             InitializeComponent();
@@ -48,7 +51,7 @@ namespace PersonagensApp.Views
             try
             {
                 UserDialogs.Instance.ShowLoading(title: Constants.ShowLoadingMessage);
-                await App.PersonagemManager.UploadFotoPersonagemAsync(mediaFile);
+                await restService.UploadFotoPersonagemAsync(mediaFile);
                 personagem.Afiliacoes = txtAfiliacoes.Text;
                 personagem.Altura = $"{txtAltura.Text} m";
                 personagem.Descricao = txtDescricao.Text;
@@ -59,7 +62,7 @@ namespace PersonagensApp.Views
                 personagem.Origem = txtOrigem.Text;
                 personagem.Peso = $"{txtPeso.Text} kg";
                 personagem.Poderes = txtPoderes.Text;
-                await App.PersonagemManager.PostPersonagemAsync(personagem);
+                await restService.PostPersonagemAsync(personagem);
                 UserDialogs.Instance.HideLoading();
                 UserDialogs.Instance.ShowSuccess("Sucesso!");
                 await Navigation.PopAsync();

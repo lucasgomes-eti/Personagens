@@ -42,9 +42,7 @@
     <Compile Include="Constants.cs" />
     <Compile Include="Data\DataAccess.cs" />
     <Compile Include="Data\IConfig.cs" />
-    <Compile Include="Data\IRestService.cs" />
-    <Compile Include="Data\PersonagemManager.cs" />
-    <Compile Include="Data\RestService.cs" />
+    <Compile Include="Services\RestService.cs" />
     <Compile Include="Models\MenuItem.cs" />
     <Compile Include="Models\Personagem.cs" />
     <Compile Include="Models\Usuario.cs" />

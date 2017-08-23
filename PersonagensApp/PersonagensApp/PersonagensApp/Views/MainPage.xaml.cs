@@ -5,12 +5,15 @@ using PersonagensApp.Data;
 using Plugin.Connectivity;
 using System.Linq;
 using System.Collections.Generic;
+using PersonagensApp.Services;
 
 namespace PersonagensApp
 {
     public partial class MainPage : ContentPage
     {
         DataAccess dados = new DataAccess();
+
+        RestService restService = new RestService();
 
         public MainPage()
         {
@@ -31,7 +34,7 @@ namespace PersonagensApp
             }
             else
             {
-                listView.ItemsSource = await App.PersonagemManager.GetPersonagemAsync();
+                listView.ItemsSource = await restService.GetPersonagemAsync();
             }
 
             listView.IsRefreshing = false;
@@ -46,19 +49,19 @@ namespace PersonagensApp
             }
             else
             {
-                listView.ItemsSource = await App.PersonagemManager.GetPersonagemAsync();
+                listView.ItemsSource = await restService.GetPersonagemAsync();
             }
             listView.IsRefreshing = false;
         }
 
-        void OnSearchTextChanged(object sender, TextChangedEventArgs e)
-        {
-            var key = sbrBusca.Text;
+        //void OnSearchTextChanged(object sender, TextChangedEventArgs e)
+        //{
+        //    var key = sbrBusca.Text;
 
-            //listView.ItemsSource = personagens.Where(personagens => personagens.Nome.ToLower().Contains(key));
-            var personagens = listView.ItemsSource as List<Personagem>;
-            listView.ItemsSource = personagens.Where(p => p.Nome.ToLower().Contains(key));
-        }
+        //    //listView.ItemsSource = personagens.Where(personagens => personagens.Nome.ToLower().Contains(key));
+        //    var personagens = listView.ItemsSource as List<Personagem>;
+        //    listView.ItemsSource = personagens.Where(p => p.Nome.ToLower().Contains(key));
+        //}
 
         void OnItemSelected(object sender, SelectedItemChangedEventArgs e)
         {

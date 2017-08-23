@@ -756,3 +756,4 @@ E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\
 E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
 E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\PersonagensApp.Droid.csproj.CoreCompileInputs.cache

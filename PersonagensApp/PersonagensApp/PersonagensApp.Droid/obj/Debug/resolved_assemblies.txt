@@ -79,7 +79,6 @@ E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\
 E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.ComponentModel.dll
 E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Collections.Concurrent.dll
 E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Runtime.InteropServices.dll
-E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Mono.CSharp.dll
 E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\Mono.Security.dll
 E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Diagnostics.Tools.dll
 E:\Repositórios\Personagens\PersonagensApp\PersonagensApp\PersonagensApp.Droid\obj\Debug\android\assets\System.Net.Primitives.dll

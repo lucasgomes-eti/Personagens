@@ -9,11 +9,10 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PersonagensApp.Data
+namespace PersonagensApp.Services
 {
-    public class RestService : IRestService
+    public class RestService
     {
-        static HttpClient client = new HttpClient();
         public List<Personagem> personagem { get; private set; }
 
         public string caminhoFoto = "http://52.67.109.13:3003";
@@ -25,11 +24,14 @@ namespace PersonagensApp.Data
 
             try
             {
-                var response = await client.GetAsync(uri);
-                if (response.IsSuccessStatusCode)
+                using (var client = new HttpClient())
                 {
-                    var content = await response.Content.ReadAsStringAsync();
-                    personagem = JsonConvert.DeserializeObject<List<Personagem>>(content);
+                    var response = await client.GetAsync(uri);
+                    if (response.IsSuccessStatusCode)
+                    {
+                        var content = await response.Content.ReadAsStringAsync();
+                        personagem = JsonConvert.DeserializeObject<List<Personagem>>(content);
+                    }
                 }
             }
             catch (Exception ex)
@@ -50,7 +52,10 @@ namespace PersonagensApp.Data
 
                 HttpResponseMessage response = null;
 
-                response = await client.PostAsync(uri, content);
+                using (var client = new HttpClient())
+                {
+                    response = await client.PostAsync(uri, content);
+                }
 
                 caminhoFoto = "http://52.67.109.13:3003";
             }
@@ -70,7 +75,10 @@ namespace PersonagensApp.Data
 
                 HttpResponseMessage response = null;
 
-                response = await client.PutAsync(uri, content);
+                using (var client = new HttpClient())
+                {
+                    response = await client.PutAsync(uri, content);
+                }
             }
             catch (Exception ex)
             {
@@ -83,10 +91,13 @@ namespace PersonagensApp.Data
 
             try
             {
-                HttpResponseMessage response = await client.DeleteAsync(uri);
-                if (response.IsSuccessStatusCode)
+                using (var client = new HttpClient())
                 {
-                    Debug.WriteLine(response.StatusCode);
+                    HttpResponseMessage response = await client.DeleteAsync(uri);
+                    if (response.IsSuccessStatusCode)
+                    {
+                        Debug.WriteLine(response.StatusCode);
+                    }
                 }
 
             }
@@ -97,17 +108,20 @@ namespace PersonagensApp.Data
         }
         public async Task UploadFotoPersonagemAsync(MediaFile mediaFile)
         {
-            var content = new MultipartFormDataContent();
+            using (var client = new HttpClient())
+            {
+                var content = new MultipartFormDataContent();
 
-            content.Add(new StreamContent(mediaFile.GetStream()),
-            "\"file\"",
-            $"\"{mediaFile.Path}\"");
+                content.Add(new StreamContent(mediaFile.GetStream()),
+                    "\"file\"",
+                    $"\"{mediaFile.Path}\"");
 
-            var httpResponseMessage = await client.PostAsync(Constants.UploadService, content);
+                var httpResponseMessage = await client.PostAsync(Constants.UploadService, content);
 
-            caminhoFoto = caminhoFoto + await httpResponseMessage.Content.ReadAsStringAsync();
+                caminhoFoto = caminhoFoto + await httpResponseMessage.Content.ReadAsStringAsync();
 
-            content = null;
+                content = null;
+            }
         }
     }
 }

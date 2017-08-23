@@ -25,7 +25,6 @@ namespace PersonagensApp
             }
             await App.MasterDetail.Detail.Navigation.PushAsync(page);
         }
-        public static PersonagemManager PersonagemManager { get; private set; }
 
         public static Action HideLoginView
         {
@@ -46,7 +45,6 @@ namespace PersonagensApp
         public App()
         {
             InitializeComponent();
-            PersonagemManager = new PersonagemManager(new RestService());
             MainPage = new Views.MasterDetailNavigationPage();
         }
 
