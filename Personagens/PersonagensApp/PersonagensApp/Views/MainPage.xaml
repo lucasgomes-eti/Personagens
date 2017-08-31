@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:abstractions="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin.Abstractions"
+             xmlns:viewModels="clr-namespace:PersonagensApp.ViewModels;assembly=PersonagensApp"
+             x:Class="PersonagensApp.Views.MainPage"
+             Title="Herois BR">
+    <ContentPage.BindingContext>
+        <viewModels:MainVM />
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Padding="16,8,16,8" Spacing="8">
+                <Frame Style="{StaticResource DescriptionFrameStyle}">
+                    <StackLayout>
+                        <StackLayout Orientation="Horizontal">
+                            <abstractions:CircleImage Source="icon.png" WidthRequest="40" HeightRequest="40" />
+                            <StackLayout>
+                                <Label Style="{StaticResource BodyLblStyle}" Text="[Título]" />
+                                <Label Style="{StaticResource SubTitleLblStyle}" Text="[Subtítulo]" />
+                            </StackLayout>
+                        </StackLayout>
+                        <Image Source="icon.png" WidthRequest="344" HeightRequest="194" Aspect="AspectFill" />
+                        <Label Style="{StaticResource BodyLblStyle}" Text="[Descrição Ex: Lorem ipsum dolor sit amet, consectetur adipiscing elit.]" />
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

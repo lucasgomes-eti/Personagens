@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PersonagensApp.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <!--Start Label Style-->
+            <Style x:Key="TitleLblStyle" TargetType="Label">
+                <Setter Property="TextColor" Value="#212121" />
+                <Setter Property="FontSize" Value="20" />
+            </Style>
+            <Style x:Key="BodyLblStyle" TargetType="Label">
+                <Setter Property="TextColor" Value="#212121" />
+                <Setter Property="FontSize" Value="14" />
+            </Style>
+            <Style x:Key="SubTitleLblStyle" TargetType="Label">
+                <Setter Property="TextColor" Value="#757575" />
+                <Setter Property="FontSize" Value="14" />
+            </Style>
+            <!--End Label Style-->
+
+            <!--Start Button Style-->
+            <Style x:Key="SolidFullBtnStyle" TargetType="Button">
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="FontSize" Value="20" />
+                <Setter Property="BackgroundColor" Value="#7cb342" />
+                <Setter Property="BorderRadius" Value="0" />
+                <Setter Property="HeightRequest" Value="64" />
+            </Style>
+            <Style x:Key="SolidSlimBtnStyle" TargetType="Button">
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="FontSize" Value="14" />
+                <Setter Property="BackgroundColor" Value="#7cb342" />
+                <Setter Property="BorderRadius" Value="2" />
+                <Setter Property="HeightRequest" Value="38" />
+            </Style>
+            <Style x:Key="PerfilBtnStyle" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="#FFFFFF" />
+                <Setter Property="BorderRadius" Value="76" />
+                <Setter Property="HeightRequest" Value="152" />
+                <Setter Property="WidthRequest" Value="152" />
+            </Style>
+            <Style x:Key="CircleSmallBtnStyle" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="#8CF2F2F2" />
+                <Setter Property="BorderRadius" Value="28" />
+                <Setter Property="HeightRequest" Value="56" />
+                <Setter Property="WidthRequest" Value="56" />
+            </Style>
+            <!--End Button Style-->
+
+            <!--Start Frame Style-->
+            <Style x:Key="DescriptionFrameStyle" TargetType="Frame">
+                <Setter Property="BackgroundColor" Value="White" />
+                <Setter Property="CornerRadius" Value="5" />
+            </Style>
+            <!--End Frame Style-->
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

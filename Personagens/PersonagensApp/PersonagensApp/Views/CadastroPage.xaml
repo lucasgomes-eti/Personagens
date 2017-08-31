@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModels="clr-namespace:PersonagensApp.ViewModels;assembly=PersonagensApp"
+             x:Class="PersonagensApp.Views.CadastroPage"
+             Title="Cadastro">
+    <ContentPage.BindingContext>
+        <viewModels:CadastroVM />
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <StackLayout Padding="16,8,16,8" Spacing="8" VerticalOptions="CenterAndExpand">
+                    <Entry Placeholder="Nome" Text="{Binding Path=Nome}" />
+                    <Entry Placeholder="Email" Text="{Binding Path=Email}" Keyboard="Email" />
+                    <Entry Placeholder="Senha" Text="{Binding Path=Senha}" IsPassword="True" />
+                    <Entry Placeholder="Confirmar Senha" Text="{Binding Path=ConfirmacaoSenha}" IsPassword="True" />
+                </StackLayout>
+                <StackLayout VerticalOptions="End">
+                    <Button Style="{StaticResource SolidFullBtnStyle}" Text="Cadastrar"
+                            Command="{Binding Path=CadastrarCommand}" />
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
